@@ -1,8 +1,6 @@
-import com.sun.tools.javac.util.ArrayUtils;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Random;
 import java.util.Arrays;
@@ -11,10 +9,6 @@ public class ArraySorting {
     Random rand;
     int len;
 
-//    public ArraySorting(int len){
-//        rand = new Random();
-//        this.len = len;
-//    }
 
 
     @Test
